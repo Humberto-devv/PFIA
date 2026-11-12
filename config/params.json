@@ -1,0 +1,36 @@
+{
+  "heuristic_search": {
+    "heuristic": "manhattan",
+    "tie_breaker": 0.001
+  },
+  "hill_climbing": {
+    "num_initial_solutions": 15,
+    "max_iterations": 200,
+    "neighborhood": "swap"
+  },
+  "simulated_annealing": {
+    "initial_temp": 100.0,
+    "final_temp": 0.1,
+    "cooling_rate": 0.95,
+    "iterations_per_temp": 50,
+    "num_runs": 25
+  },
+  "genetic_algorithm": {
+    "population_size": 40,
+    "generations": 80,
+    "crossover_rate": 0.8,
+    "mutation_rate": 0.15,
+    "tournament_size": 3,
+    "elitism": 2,
+    "num_runs": 25
+  },
+  "minimax": {
+    "max_depth": 4,
+    "use_alpha_beta": true
+  },
+  "experiments": {
+    "random_seeds": [42, 7, 123, 999, 2024, 314, 2718, 1618, 577, 89,
+                     11, 22, 33, 44, 55, 66, 77, 88, 99, 100,
+                     200, 300, 400, 500, 600]
+  }
+}

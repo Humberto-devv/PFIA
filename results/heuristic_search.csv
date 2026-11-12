@@ -1,0 +1,19 @@
+escenario,algoritmo,heuristica,exito,costo,nodos_expandidos,tiempo_ms,largo_ruta,competidor_strategy
+sin_competidor,Greedy Best-First,manhattan,True,22.0,23,0.27760000000398577,23,none
+sin_competidor,Greedy Best-First,euclidean,True,30.1,25,0.29500000005100446,23,none
+sin_competidor,A*,manhattan,True,22.0,96,0.7555000000252221,23,none
+sin_competidor,A*,euclidean,True,22.0,103,0.567799999998897,23,none
+sin_competidor,astar+entregas,manhattan,True,41.5,79,0.6253000000242537,39,none
+sin_competidor,greedy+entregas,manhattan,True,46.0,46,0.2864000001068234,39,none
+competidor_balanced,Greedy Best-First,manhattan,True,22.0,23,0.23540000000821237,23,balanced
+competidor_balanced,Greedy Best-First,euclidean,True,42.099999999999994,25,0.18940000001066437,23,balanced
+competidor_balanced,A*,manhattan,True,22.0,95,0.5722000000218941,23,balanced
+competidor_balanced,A*,euclidean,True,22.0,99,0.5140000000096734,23,balanced
+competidor_balanced,astar+entregas,manhattan,True,41.5,74,0.4056999999875188,39,balanced
+competidor_balanced,greedy+entregas,manhattan,True,58.0,46,0.2750999998966108,39,balanced
+competidor_aggressive,Greedy Best-First,manhattan,True,22.0,23,0.20929999999452775,23,aggressive
+competidor_aggressive,Greedy Best-First,euclidean,True,48.099999999999994,25,0.4078999999705957,23,aggressive
+competidor_aggressive,A*,manhattan,True,22.0,95,0.48600000002352317,23,aggressive
+competidor_aggressive,A*,euclidean,True,22.0,99,1.0738999999944099,23,aggressive
+competidor_aggressive,astar+entregas,manhattan,True,41.5,74,0.41400000003477544,39,aggressive
+competidor_aggressive,greedy+entregas,manhattan,True,64.0,46,0.28349999996635233,39,aggressive

@@ -1,0 +1,3 @@
+algoritmo,profundidad,valor,nodos_visitados,nodos_podados,tiempo_ms,mejor_accion
+Minimax,3,11.0,31,0,0.49358699999402234,claim_high
+AlphaBeta,3,11.0,15,4,0.2703590000123768,claim_high

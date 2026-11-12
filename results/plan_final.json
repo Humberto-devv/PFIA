@@ -1,0 +1,30 @@
+{
+  "timestamp": "2026-11-12T00:33:15.546630",
+  "order_entregas": [
+    [
+      5,
+      2
+    ],
+    [
+      2,
+      5
+    ],
+    [
+      4,
+      9
+    ],
+    [
+      8,
+      8
+    ]
+  ],
+  "estrategia_jugador": "ruta_equilibrada",
+  "estrategia_rival_esperada": "balanced",
+  "accion_negociacion": "claim_high",
+  "costo_estimado": 33.5,
+  "ruta_valida": true,
+  "largo_ruta": 33,
+  "nodos_expandidos_ruta": 63,
+  "fuel_capacity": 80.0,
+  "interpretacion_juego": "Equilibrio (ruta_equilibrada, balanced): pago=-32.00. Recomendación: adoptar estrategia 'ruta_equilibrada' cuando el competidor juega 'balanced'."
+}
