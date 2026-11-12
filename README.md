@@ -79,7 +79,7 @@ pytest tests/ -v
 
 ## Configuración del escenario
 
-Edita `config/map.json` para cambiar:
+En el archivo `config/map.json` se establece:
 
 - Tamaño de la cuadrícula, inicio, meta
 - Puntos de entrega (≥3)
